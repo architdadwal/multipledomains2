@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "multipledomains2",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authmultipledomains292fea2e1",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
